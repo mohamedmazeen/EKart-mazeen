@@ -1,0 +1,26 @@
+/**
+*
+* layout.css 
+* @author - Mazeen
+* @date - 17/7/2023 
+**/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.col-1 {
+    flex: 1;
+}
+.col-auto {
+    width: auto;
+}
+.col-w80 {
+    width: 80px;
+    height: 130px;
+}
+.col-2 {
+    flex: 2;
+}
+.col-w30 {
+    width: 30px;
+}

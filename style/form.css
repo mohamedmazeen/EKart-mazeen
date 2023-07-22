@@ -1,0 +1,168 @@
+/**
+*
+* form.css 
+* @author - Mazeen
+* @date - 17/7/2023 
+**/
+.primary-btn {
+    color: #fff;
+    background-color: #239698;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+.primary-btn .fa-solid {
+    margin-left: 10px;
+}
+.secondary-btn {
+    color: #239698;
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.secondary-btn .fa-solid {
+    margin-left: 10px;
+}
+.tertiary-btn {
+    background-color: #fff;
+    color: #239698;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.tertiary-btn .fa-solid {
+    vertical-align: middle;
+    padding: 5px;
+}
+.text-field {
+    background-color: #fff;
+    color: #222;
+    outline: none;
+    border: none;
+    width: 515px;
+    padding-left: 10px;
+    height: 53px;
+    font-size: 16px;
+    margin-left: -1px;
+    box-sizing: border-box;
+}
+.text-field::placeholder {
+    color: #4a5568;
+}
+.location-btn {
+    border: none;
+    outline: none;
+    background-color: #239698;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+.search-left-btn {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 24px;
+    color: #239698;
+    padding: 13px 5px 13px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.search-right-btn {
+    border: none;
+    outline: none;
+    background-color: #ffb803;
+    color: #222;
+    font-size: 16px;
+    padding: 18px 25px 17.5px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.app-btn {
+    border: none;
+    outline: none;
+    background-color: #e9f4f4;
+    color: #499d9e;
+    padding: 20px 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-btn {
+    border: none;
+    background-color: #239698;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.add-btn .fa-solid {
+    vertical-align: middle;
+}
+.product-btn {
+    background-color: #e9f4f4;
+    border: 1px solid #239698;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.left-code-btn {
+    border: none;
+    color: #fff;
+    background-color: #f74e4a;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 21px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right-code-btn {
+    border: none;
+    color: #fff;
+    background-color: #46affb;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 21px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feature-btn {
+    font-size: 13px;
+    color: #239698;
+    background-color: #e9f4f4;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+.side-btn-1, .side-btn-2 {
+    border: none;
+    background-color: #239698;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.side-btn-1 {
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+}
+.side-btn-2 {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

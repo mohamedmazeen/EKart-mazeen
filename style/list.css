@@ -1,0 +1,134 @@
+/**
+*
+* list.css 
+* @author - Mazeen
+* @date - 17/7/2023 
+**/
+.left-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.left-menu-list>li {
+    display: inline-block;
+    padding-right: 27px;
+}
+.left-menu-list .fa-solid {
+    margin-left: 10px;
+}
+.right-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.right-menu-list>li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.home-sub-menu {
+    display: none;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    width: auto;
+}
+.left-menu-list>li:hover .home-sub-menu {
+    display: block;
+    position: absolute;
+}
+.sub-menu {
+    display: none;
+}
+.sub-menu>ul, .mega-sub-menu-list  {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+}
+.sub-menu ul>li, .mega-sub-menu-list li{
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: #525558;
+
+}
+.left-menu-list>li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.mega-sub-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.product-list {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+.product-list li {
+    display: inline-block;
+    margin-right: 15px;  
+}
+.product-list li:last-child {
+    margin-right: 0;
+}
+.services-list {
+    list-style: none;
+    margin: 50px 0;
+    padding: 0;
+}
+.services-list li {
+    display: inline-block;
+    width: 240px;
+    height: 130px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+.services-list li .fa-solid {
+    color: #239698;
+    font-size: 30px;
+}
+.services-list li:last-child {
+    margin: 0;
+}
+.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-list .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.footer-list li a {
+    color: #bfbfbf;
+}
+.footer-list li {
+    display: block;
+    padding-bottom: 20px;
+}
+.footer-list .line-gap {
+    display: block;
+    margin-top: 15px;
+}
+.footer-list li .fa-solid {
+    font-size: 18px;
+}
+.credit-card-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.credit-card-list li {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}

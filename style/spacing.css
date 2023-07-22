@@ -1,0 +1,48 @@
+/**
+*
+* spacing.css 
+* @author - Mazeen
+* @date - 17/7/2023 
+**/
+.plr-10 {
+    padding: 0 10px;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.ml--250 {
+    margin-left: -250px;
+}
+.ptb-145 {
+    padding: 145px 0;
+}
+.pt-45 {
+    padding-top: 45px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.pl-25 {
+    padding-left: 25px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.mlr-25 {
+    margin: 0 25px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}

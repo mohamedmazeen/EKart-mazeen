@@ -1,0 +1,316 @@
+/**
+*
+* style.css 
+* @author - Mazeen
+* @date - 17/7/2023 
+**/
+.wrapper {
+    padding: 0 125px;
+}
+.sticky-header {
+    background-color: #239698;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.location-box {
+    display: inline-block;
+    color: #fff;
+    padding: 0 20px;
+}
+.location-box .fa-solid {
+    font-size: 15px;
+    padding: 0 5px;
+}
+.location-box .fa-location-dot {
+    font-size: 20px;
+}
+.fa-headset {
+    color: #fff;
+    font-size: 35px;
+}
+.support-number {
+    display: inline-block;
+    color: #fff;
+    padding-left: 10px;
+}
+.call-time {
+    color: #fff;
+    padding: 0px;
+    margin: 0;
+    text-align: end;
+    font-size: 15px;
+}
+.normal-header {
+    padding: 20px 0;
+}
+.border-circle {
+    position: relative;
+    border: 1px solid #ececec;
+    border-radius: 50%;
+}
+.border-circle .fa-solid {
+    padding: 15px;
+}
+.border-line {
+    border-right: 1px solid #ececec;
+}
+.app-btn .fa-solid {
+    margin-right: 10px;
+}
+.menu-subtitle {
+    font-weight: none;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0;
+}
+.mega-menu-title {
+    color: #239698 !important;
+    font-weight: bold;
+}
+.pending-tasks {
+    position: absolute;
+    right: 2px;
+    top: -8px;
+    display: inline-block;
+    margin:0;
+    padding: 3px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #239698;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+.slider {
+    background-image: url("../img/main-shop/image-1.jpg");
+    width: 100%;
+    height: 495px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider-offer {
+    color: #239698;
+    margin: 0;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.slider-title {
+    padding: 10px 0;
+}
+.slider-content {
+    color: #4a5568;
+    font-size: 19px;
+    margin:0;
+    padding: 10px 0 20px 0;
+}
+.promotion-1 {
+    background-image: url(../img/promotion/image-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 303px;
+    height: 195px;
+    border-radius: 10px;
+}
+.promotion-type {
+    font-weight: lighter;
+    color: #222;
+    padding-bottom: 10px;
+}
+.promotion-title {
+    line-height: 1.4;
+    padding-bottom: 20px;
+}
+.promotion-2 {
+    background-image: url(../img/promotion/image-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 303px;
+    height: 195px;
+    border-radius: 10px;
+}
+.promotion-3 {
+    background-image: url(../img/promotion/image-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 303px;
+    height: 195px;
+    border-radius: 10px;
+}
+.promotion-4 {
+    background-image: url(../img/promotion/image-4.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;  
+    width: 303px;
+    height: 195px;
+    border-radius: 10px;
+}
+.product {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    width: 195px;
+    height: 270px;
+    box-sizing: border-box;
+}
+.product img {
+    padding-top: 20px;
+}
+.product-center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.product .rating {
+    font-size: 12px;
+    color: #ffff00;
+    margin: 50px 0 10px 0;
+}
+.unchecked {
+    color: #ccc;
+}
+.product .title {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #222;
+}
+.product .discounted-price {
+    display: inline-block;
+    font-weight: bold;
+    color: #239698;
+    margin: 5px 0;
+}
+.product .actual-price {
+   display: inline-block; 
+    padding-left: 8px;
+    color: #5f6879;
+    margin: 5px 0;
+}
+.quick-options {
+    display: none;
+}
+.product:hover .quick-options {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+}
+.product:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.offers .left-offer-title {
+    color: #bb0032;
+    padding: 15px 0 10px 0;
+}
+.offers .condition {
+    color: #4a5568;
+    margin: 0 0 60px 0;
+}
+.offers .validity {
+    color: #4a5568;
+    margin: 0;
+}
+.offer-box {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.left-code-box {
+    background-color: #de2d40;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.offer-code {
+    color: #fff;
+    margin: 0;
+}
+.code-detail {
+    font-weight: bold;
+    font-size: 20px;
+}
+.right-code-box {
+    background-color: #43adf9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.banner {
+    margin-top: 30px;
+    width: 100%;
+    height: 80px;
+}
+.banner-bg-1 {
+    background-image: url(../img/top-selling/image-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner .title {
+    color: #fff;
+}
+.banner .title .heading {
+    font-size: 30px;
+}
+.delivery-left {
+    background-image: url(../img/staples/image-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 835px;
+    height: 318px;
+}
+.blog-description .title {
+    padding-top: 20px;
+}
+.blog-description .author {
+    color: #4c576a;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.col-border {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+}
+.col-border img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.services-list .header {
+    line-height: 1.2;
+}
+.services-list .sub-header {
+    font-size: 14px;
+    color: #4a5568;
+    margin: 8px 0 0 0;
+}
+.top-footer .title {
+    color: #bfbfbf;
+    line-height: 1.5;
+    margin: 25px 0 10px 0;
+}
+.top-footer .fa-brands {
+    color: #fff;
+    padding: 12px 14px;
+}
+.top-footer .icon-circle {
+    display: inline-block;
+    background-color: #1e2e2e;
+    border-radius: 50%;
+}
+.top-footer .icon-circle:hover {
+    background-color: #505c5c;
+}
+.border-line-bottom {
+    border-bottom: 1px solid #334141;
+}
+.bottom-footer {
+    padding: 45px 0;
+}
+.bottom-footer .title {
+    color: #bfbfbf;
+    margin: 0;
+}
